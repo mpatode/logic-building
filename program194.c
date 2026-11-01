@@ -1,0 +1,22 @@
+/* 
+    Input :     4
+    Output :  small a to z
+
+*/
+
+#include<stdio.h>
+#include<stdlib.h>
+
+
+int main()
+{
+    int iCnt = 0;
+
+    for (iCnt = 97; iCnt <= 122; iCnt++)
+    {
+        printf("%c\n", iCnt);
+    }
+
+
+    return EXIT_SUCCESS;
+}
